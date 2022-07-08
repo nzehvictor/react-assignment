@@ -1,5 +1,4 @@
-
-function App() {
+function reactPage() {
   return (
     <div
       style={{
@@ -11,9 +10,9 @@ function App() {
           background: "#21222A",
           width: "550px",
           height: "91px",
-          display:"flex",
-          justifyContent:"space-between",
-          alignItems:"center"
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center"
         }}>
         <p
           style={{
@@ -25,7 +24,7 @@ function App() {
             lineHeight: "27px",
             letterSpacing: "-0.05em",
             color: "#61DAFB",
-            paddingLeft:"50px"
+            paddingLeft: "50px"
           }}>ReactFacts</p>
         <p
           style={{
@@ -36,7 +35,7 @@ function App() {
             fontSize: "16px",
             lineHeight: "27px",
             color: "#DEEBF8",
-            paddingRight:"30px"
+            paddingRight: "30px"
           }}>
           React Course - Project  2</p>
       </header>
@@ -56,15 +55,15 @@ function App() {
           lineHeight: "47px",
           letterSpacing: "-0.05em",
           color: "#FFFFFF",
-          paddingTop:"55px",
-          paddingLeft:"30px",
-          paddingBottom:"45px"
+          paddingTop: "55px",
+          paddingLeft: "30px",
+          paddingBottom: "45px"
         }}>
           Fun facts about React</h1>
-        <ul 
-        style={{
-          paddingLeft:"70px"
-        }}>
+        <ul
+          style={{
+            paddingLeft: "70px"
+          }}>
           <li style={{
             width: "390px",
             height: "17.81px",
@@ -74,7 +73,7 @@ function App() {
             fontSize: "16px",
             lineHeight: "19px",
             color: "#FFFFFF",
-            paddingBottom:"20px"
+            paddingBottom: "20px"
           }}>Was first released in 2013</li>
           <li style={{
             width: "390px",
@@ -84,8 +83,8 @@ function App() {
             fontWeight: "400",
             fontSize: "16px",
             lineHeight: "19px",
-            color: "#FFFFFF", 
-            paddingBottom:"20px"
+            color: "#FFFFFF",
+            paddingBottom: "20px"
           }}>Was originally created by Jordan Walke</li>
           <li style={{
             width: "390px",
@@ -97,7 +96,7 @@ function App() {
             lineHeight: "19px",
             letterSpacing: "-0.05em",
             color: "#FFFFFF",
-            paddingBottom:"20px"
+            paddingBottom: "20px"
           }}>Has well over 100K stars on GitHub</li>
           <li style={{
             width: "390px",
@@ -108,7 +107,7 @@ function App() {
             fontSize: "16px",
             lineHeight: "19px",
             color: "#FFFFFF",
-            paddingBottom:"20px"
+            paddingBottom: "20px"
           }}>Is maintained by Facebook</li>
           <li style={{
             width: "390px",
@@ -119,7 +118,7 @@ function App() {
             fontSize: "16px",
             lineHeight: "19px",
             color: "#FFFFFF",
-            paddingBottom:"20px"
+            paddingBottom: "20px"
           }}>Powers thousands of enterprise apps, including mobile apps</li>
         </ul>
       </main>
@@ -127,4 +126,4 @@ function App() {
   );
 }
 
-export default App;
+export default reactPage;
