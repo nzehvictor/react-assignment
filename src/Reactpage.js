@@ -1,3 +1,5 @@
+import LiText from "./LiText";
+
 function reactPage() {
   return (
     <div
@@ -64,62 +66,11 @@ function reactPage() {
           style={{
             paddingLeft: "70px"
           }}>
-          <li style={{
-            width: "390px",
-            height: "17.81px",
-            fontFamily: "'Inter'",
-            fontStyle: "normal",
-            fontWeight: "400",
-            fontSize: "16px",
-            lineHeight: "19px",
-            color: "#FFFFFF",
-            paddingBottom: "20px"
-          }}>Was first released in 2013</li>
-          <li style={{
-            width: "390px",
-            height: "19.51px",
-            fontFamily: "'Inter'",
-            fontStyle: "normal",
-            fontWeight: "400",
-            fontSize: "16px",
-            lineHeight: "19px",
-            color: "#FFFFFF",
-            paddingBottom: "20px"
-          }}>Was originally created by Jordan Walke</li>
-          <li style={{
-            width: "390px",
-            height: "16.96px",
-            fontFamily: "'Inter'",
-            fontStyle: "normal",
-            fontWeight: "400",
-            fontSize: "16px",
-            lineHeight: "19px",
-            letterSpacing: "-0.05em",
-            color: "#FFFFFF",
-            paddingBottom: "20px"
-          }}>Has well over 100K stars on GitHub</li>
-          <li style={{
-            width: "390px",
-            height: "18.9px",
-            fontFamily: "'Inter'",
-            fontStyle: "normal",
-            fontWeight: "400",
-            fontSize: "16px",
-            lineHeight: "19px",
-            color: "#FFFFFF",
-            paddingBottom: "20px"
-          }}>Is maintained by Facebook</li>
-          <li style={{
-            width: "390px",
-            height: "19.87px",
-            fontFamily: "'Inter'",
-            fontStyle: "normal",
-            fontWeight: "400",
-            fontSize: "16px",
-            lineHeight: "19px",
-            color: "#FFFFFF",
-            paddingBottom: "20px"
-          }}>Powers thousands of enterprise apps, including mobile apps</li>
+          <LiText text="Was first released in 2013" />
+          <LiText text="Was originally created by Jordan Walke" />
+          <LiText text="Has well over 100K stars on GitHub" />
+          <LiText text="Is maintained by Facebook" />
+          <LiText text="Powers thousands of enterprise apps, including mobile apps" />
         </ul>
       </main>
     </div>

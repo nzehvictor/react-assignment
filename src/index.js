@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import ReactPage from './Reactpage';
-import Expensetracker from './expensetracker';
 import reportWebVitals from './reportWebVitals';
+import ExpenseTracker from './ExpenseTracker';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ReactPage />
+    <ExpenseTracker />
   </React.StrictMode>
 );
 
