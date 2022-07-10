@@ -4,6 +4,7 @@ import './index.css';
 import ReactPage from './Reactpage';
 import reportWebVitals from './reportWebVitals';
 import ExpenseTracker from './ExpenseTracker';
+import Admin from './Admin';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

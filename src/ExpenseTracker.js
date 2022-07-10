@@ -1,6 +1,13 @@
 import React from 'react'
+import ETHistory from "./ETHistory"
 
 export default function ExpenseTracker() {
+  const history = [{ expense: "Bought grapes", amount: "$500" }, { expense: "Bought grapes", amount: "$500" }, { expense: "Bought grapes", amount: "$500" }];
+  const his = [];
+  history.forEach((item) => {
+    his.push(<ETHistory text={item.expense} amount={item.amount} />)
+    console.log(item)
+  })
   return (
     <>
       <main style={{ textAlign: "center" }}>
@@ -41,8 +48,9 @@ export default function ExpenseTracker() {
         </div>
         <h2>History</h2>
         <div>
-          <table id="tableTwo">
-          </table>
+          <ul style={{listStyleType:"none"}}>
+            {his}
+          </ul>
         </div>
         <div>
           <h3>Add New Transactions</h3>
